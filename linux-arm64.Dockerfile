@@ -44,4 +44,9 @@ RUN apk add --no-cache py3-pip && \
     pip3 install --break-system-packages -r "${APP_DIR}/requirements.txt" && \
     apk del --purge build-dependencies
 
+# Install ffprobe
+RUN apk add --no-cache ffmpeg
+RUN mkdir -p ${APP_DIR}/bin
+RUN cp /usr/bin/ffprobe ${APP_DIR}/bin/ffprobe
+
 COPY root/ /
