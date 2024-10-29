@@ -2,13 +2,13 @@
   "nightly": {
     "description": "Every commit to develop",
     "hide": false,
-    "last_updated": "2024-10-28T02:29:45.000Z",
-    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/11546157784",
+    "last_updated": "2024-10-29T11:26:28.000Z",
+    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/11572733025",
     "latest": false,
     "tags": [
       "nightly",
-      "nightly-3a628a0025d239028c8eebd1427f28c246dda6b6",
-      "nightly-0ba7c7a"
+      "nightly-c5314569db12cd88673c16574dd47b0f87d5cbbe",
+      "nightly-f8ed974"
     ]
   },
   "release": {
