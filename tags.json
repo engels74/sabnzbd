@@ -14,13 +14,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-04-03T21:14:39.000Z",
-    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/14252821147",
+    "last_updated": "2025-04-04T16:17:02.000Z",
+    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/14269568910",
     "latest": true,
     "tags": [
       "release",
       "release-4.5.0",
-      "release-a07aa35"
+      "release-e8eb269"
     ]
   },
   "testing": {
