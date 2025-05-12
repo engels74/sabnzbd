@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:7b181c4cb703cd10404e4ba6a71453ed225ecb9fd69a1bacf053aeaae4d2a4a4",
   "upstream_image": "ghcr.io/engels74/base-image",
   "upstream_tag": "alpinevpn",
-  "version": "3da67dc4af953fc5496d85675170cf1847c9eb12"
+  "version": "f5fd4c1c1824ef5a1566eae98ef614f4fe5ad314"
 }
