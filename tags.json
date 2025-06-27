@@ -26,13 +26,13 @@
   "testing": {
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2025-06-17T13:14:01.000Z",
-    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/15708127946",
+    "last_updated": "2025-06-27T10:19:36.000Z",
+    "last_updated_url": "https://github.com/engels74/sabnzbd/actions/runs/15923887678",
     "latest": false,
     "tags": [
       "testing",
-      "testing-4.5.2RC1",
-      "testing-7727d4b"
+      "testing-4.5.2RC2",
+      "testing-682fae9"
     ]
   }
 }
