@@ -51,3 +51,4 @@ RUN mkdir -p ${APP_DIR}/bin
 RUN cp /usr/bin/ffprobe ${APP_DIR}/bin/ffprobe
 
 COPY root/ /
+RUN find /etc/s6-overlay/s6-rc.d -name "run*" -execdir chmod +x {} +
