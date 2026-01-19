@@ -1,8 +1,8 @@
 #!/bin/bash
 set -exuo pipefail
 
-version=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/sabnzbd/sabnzbd/commits/develop" | jq -re .sha)
-version_par2turbo=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/animetosho/par2cmdline-turbo/releases/latest" | jq -re .tag_name)
+version=$(curl -fsSL "https://api.github.com/repos/sabnzbd/sabnzbd/commits/develop" | jq -re .sha)
+version_par2turbo=$(curl -fsSL "https://api.github.com/repos/animetosho/par2cmdline-turbo/releases/latest" | jq -re .tag_name)
 json=$(cat meta.json)
 jq --sort-keys \
     --arg version "${version//v/}" \
