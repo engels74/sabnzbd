@@ -198,5 +198,5 @@ xvidcore=1.3.7-r2
 xz-libs=5.8.4-r0
 zimg=3.0.6-r0
 zix-libs=0.6.2-r0
-zlib=1.3.2-r0
+zlib=1.3.2-r1
 zstd-libs=1.5.7-r2
